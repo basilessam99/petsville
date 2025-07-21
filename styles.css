@@ -28,10 +28,17 @@ nav {
 }
 
 nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #d0e7ff; /* lighter blue background on hover */
+    color: #0056b3; /* deeper blue text on hover */
+  }
 
 .logo {
   font-size: 24px;
